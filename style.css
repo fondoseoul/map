@@ -1,0 +1,191 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body {
+overflow: hidden;
+}
+
+.half {
+position: absolute;
+width: 40%;
+height: 100%;
+overflow-y: auto;
+overflow-x: hidden;
+padding: 0px;
+}
+
+a:visited {
+color: black;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+ol {
+padding: 0px;
+margin-left: 35px;
+}
+
+li {
+list-style: none;
+padding-left: 20px;
+line-height: 1.5;
+}
+
+h2 {
+font-size: 20px;
+position: fixed;
+padding: 10px;
+background-color: whitesmoke;
+text-decoration: underline;
+}
+
+p {
+line-height: 1.5;
+display: block;
+padding: 0px;
+}
+
+img {
+width: 100%;
+margin-top: 10px;
+}
+
+.firstimg {
+    margin-top: 100px;
+}
+
+
+.click:hover {
+color: DeepSkyBlue;
+text-decoration-color: DeepSkyBlue;
+}
+
+
+.left {
+background-color: whitesmoke;
+line-height: 1.5;
+}
+
+.right {
+background-color: white;
+left: 50%;
+}
+
+.content {
+padding-bottom: 60px;
+}
+
+.right .content {
+display: none;
+}
+
+.right #intro {
+display: block;
+}
+
+.right .content:target {
+display: block;
+}
+
+.right .content:target ~ #intro {
+display: none;
+}
+
+.underline {
+text-decoration: underline;
+font-weight: bold;
+}
+
+.maintext {
+padding-top: 100px;
+line-height: 1.5;
+font-family: serif;
+}
+
+.fix {
+position: fixed;
+width: 300px;
+bottom: 0px;
+left: 45%;
+background-color: white;
+display: block;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: #CC99FF;
+}
+
+.pink {
+    background-color: violet;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: tomato;
+}
+
+.link {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 704px) {
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 220px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.right {
+    position: absolute;
+    height: calc(100% - 230px);
+    width: 100%;
+    left: 0;
+    top: 230px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+mark {
+    background-color: white;
+}
+
+}
+
