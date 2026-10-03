@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -147,6 +147,11 @@ display: block;
     text-decoration: underline;
 }
 
+.naver {
+    color: #03c75a;
+    font-size: 0.85em;
+}
+
 table, tr, td, th {
   border: 1px solid black;
   border-collapse: collapse;
@@ -175,9 +180,9 @@ h4 {
 
 .right {
     position: absolute;
+    left: 0;
     height: calc(100% - 230px);
     width: 100%;
-    left: 0;
     top: 230px;
     overflow-y: scroll;
     padding: 10px;
